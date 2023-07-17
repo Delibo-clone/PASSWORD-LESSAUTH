@@ -1,0 +1,16 @@
+{
+  "trigger": true,
+  "modules": [
+    "custom"
+  ],
+  "parentResource": "passwordlessauth1531cc9d1531cc9d",
+  "functionName": "passwordlessauth1531cc9d1531cc9dPreSignup",
+  "resourceName": "passwordlessauth1531cc9d1531cc9dPreSignup",
+  "parentStack": "auth",
+  "triggerEnvs": "[]",
+  "triggerDir": "C:\\snapshot\\repo\\build\\node_modules\\@aws-amplify\\amplify-category-auth\\provider-utils\\awscloudformation\\triggers\\PreSignup",
+  "triggerTemplate": "PreSignup.json.ejs",
+  "triggerEventPath": "PreSignup.event.json",
+  "roleName": "passwordlessauth1531cc9d1531cc9dPreSignup",
+  "skipEdit": true
+}

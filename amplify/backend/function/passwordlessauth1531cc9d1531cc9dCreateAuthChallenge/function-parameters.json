@@ -1,0 +1,16 @@
+{
+  "trigger": true,
+  "modules": [
+    "boilerplate-create-challenge"
+  ],
+  "parentResource": "passwordlessauth1531cc9d1531cc9d",
+  "functionName": "passwordlessauth1531cc9d1531cc9dCreateAuthChallenge",
+  "resourceName": "passwordlessauth1531cc9d1531cc9dCreateAuthChallenge",
+  "parentStack": "auth",
+  "triggerEnvs": "[]",
+  "triggerDir": "C:\\snapshot\\repo\\build\\node_modules\\@aws-amplify\\amplify-category-auth\\provider-utils\\awscloudformation\\triggers\\CreateAuthChallenge",
+  "triggerTemplate": "CreateAuthChallenge.json.ejs",
+  "triggerEventPath": "CreateAuthChallenge.event.json",
+  "roleName": "passwordlessauth1531cc9d1531cc9dCreateAuthChallenge",
+  "skipEdit": true
+}

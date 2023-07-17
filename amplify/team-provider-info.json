@@ -1,0 +1,39 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-passwordlessauth-dev-125458-authRole",
+      "UnauthRoleArn": "arn:aws:iam::181299799834:role/amplify-passwordlessauth-dev-125458-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::181299799834:role/amplify-passwordlessauth-dev-125458-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-passwordlessauth-dev-125458-deployment",
+      "UnauthRoleName": "amplify-passwordlessauth-dev-125458-unauthRole",
+      "StackName": "amplify-passwordlessauth-dev-125458",
+      "StackId": "arn:aws:cloudformation:ap-south-1:181299799834:stack/amplify-passwordlessauth-dev-125458/094d7d10-1fbc-11ee-b4d6-0acd2a68c53e",
+      "AmplifyAppId": "daik4r3hubgdv",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-passwordlessauth-dev-125458-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "passwordlessauth1531cc9d1531cc9d": {}
+      },
+      "function": {
+        "passwordlessauth1531cc9d1531cc9dCreateAuthChallenge": {
+          "deploymentBucketName": "amplify-passwordlessauth-dev-125458-deployment",
+          "s3Key": "amplify-builds/passwordlessauth1531cc9d1531cc9dCreateAuthChallenge-395162675239794f3768-build.zip"
+        },
+        "passwordlessauth1531cc9d1531cc9dDefineAuthChallenge": {
+          "deploymentBucketName": "amplify-passwordlessauth-dev-125458-deployment",
+          "s3Key": "amplify-builds/passwordlessauth1531cc9d1531cc9dDefineAuthChallenge-75696e644d4d456b516a-build.zip"
+        },
+        "passwordlessauth1531cc9d1531cc9dPreSignup": {
+          "deploymentBucketName": "amplify-passwordlessauth-dev-125458-deployment",
+          "s3Key": "amplify-builds/passwordlessauth1531cc9d1531cc9dPreSignup-4c7a394776614430426c-build.zip"
+        },
+        "passwordlessauth1531cc9d1531cc9dVerifyAuthChallengeResponse": {
+          "deploymentBucketName": "amplify-passwordlessauth-dev-125458-deployment",
+          "s3Key": "amplify-builds/passwordlessauth1531cc9d1531cc9dVerifyAuthChallengeResponse-6d3763544c30762b5768-build.zip"
+        }
+      }
+    }
+  }
+}

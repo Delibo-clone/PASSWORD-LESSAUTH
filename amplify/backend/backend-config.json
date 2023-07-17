@@ -1,0 +1,153 @@
+{
+  "auth": {
+    "passwordlessauth1531cc9d1531cc9d": {
+      "customAuth": true,
+      "dependsOn": [
+        {
+          "attributes": [
+            "Arn",
+            "Name"
+          ],
+          "category": "function",
+          "resourceName": "passwordlessauth1531cc9d1531cc9dCreateAuthChallenge",
+          "triggerProvider": "Cognito"
+        },
+        {
+          "attributes": [
+            "Arn",
+            "Name"
+          ],
+          "category": "function",
+          "resourceName": "passwordlessauth1531cc9d1531cc9dDefineAuthChallenge",
+          "triggerProvider": "Cognito"
+        },
+        {
+          "attributes": [
+            "Arn",
+            "Name"
+          ],
+          "category": "function",
+          "resourceName": "passwordlessauth1531cc9d1531cc9dPreSignup",
+          "triggerProvider": "Cognito"
+        },
+        {
+          "attributes": [
+            "Arn",
+            "Name"
+          ],
+          "category": "function",
+          "resourceName": "passwordlessauth1531cc9d1531cc9dVerifyAuthChallengeResponse",
+          "triggerProvider": "Cognito"
+        }
+      ],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyCharacters": [],
+          "passwordPolicyMinLength": 8
+        },
+        "signupAttributes": [
+          "PHONE_NUMBER"
+        ],
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "verificationMechanisms": [
+          "PHONE_NUMBER"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito"
+    }
+  },
+  "function": {
+    "passwordlessauth1531cc9d1531cc9dCreateAuthChallenge": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "passwordlessauth1531cc9d1531cc9dDefineAuthChallenge": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "passwordlessauth1531cc9d1531cc9dPreSignup": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "passwordlessauth1531cc9d1531cc9dVerifyAuthChallengeResponse": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_passwordlessauth1531cc9d1531cc9dCreateAuthChallenge_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "passwordlessauth1531cc9d1531cc9dCreateAuthChallenge"
+        }
+      ]
+    },
+    "AMPLIFY_function_passwordlessauth1531cc9d1531cc9dCreateAuthChallenge_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "passwordlessauth1531cc9d1531cc9dCreateAuthChallenge"
+        }
+      ]
+    },
+    "AMPLIFY_function_passwordlessauth1531cc9d1531cc9dDefineAuthChallenge_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "passwordlessauth1531cc9d1531cc9dDefineAuthChallenge"
+        }
+      ]
+    },
+    "AMPLIFY_function_passwordlessauth1531cc9d1531cc9dDefineAuthChallenge_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "passwordlessauth1531cc9d1531cc9dDefineAuthChallenge"
+        }
+      ]
+    },
+    "AMPLIFY_function_passwordlessauth1531cc9d1531cc9dPreSignup_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "passwordlessauth1531cc9d1531cc9dPreSignup"
+        }
+      ]
+    },
+    "AMPLIFY_function_passwordlessauth1531cc9d1531cc9dPreSignup_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "passwordlessauth1531cc9d1531cc9dPreSignup"
+        }
+      ]
+    },
+    "AMPLIFY_function_passwordlessauth1531cc9d1531cc9dVerifyAuthChallengeResponse_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "passwordlessauth1531cc9d1531cc9dVerifyAuthChallengeResponse"
+        }
+      ]
+    },
+    "AMPLIFY_function_passwordlessauth1531cc9d1531cc9dVerifyAuthChallengeResponse_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "passwordlessauth1531cc9d1531cc9dVerifyAuthChallengeResponse"
+        }
+      ]
+    }
+  }
+}
